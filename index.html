@@ -1,4 +1,5 @@
-<!doctype html>
+<!doctype html> <!-- doctype html 은 이 코드는 html5 버전이다.라는뜻  (html 언어도
+버전이 있다).-->
 <html>
 <head>
 <title>죠죠</title>
@@ -13,22 +14,33 @@
   gtag('config', 'UA-151921635-1');
 </script>
 
+<!-- style 태그는 안에를 css문법으로 읽어라 라는 html태그임-->
+<link rel="stylesheet" href="style.css">
+
   </head>
 <body>
 <h1>
-    <a href="index.html">뭐냐고오오오</a></h1>
-<p>
+    <a href="index.html" style="color:black; text-decoration:none">뭐냐고오오오</a></h1>
+<p class="story">
     장산 준우 승교의 즐거운 <strong>개소리 모음집</strong>
    이 사이트는 노는 사이트 입니다.
     </p>
-<h2>목차</h2>
-<ol>
-  <li><a href="1.html">소개</a></li>
-    <li><a href="2.html">영상</a></li>
-      <li><a href="3.html">대화방</a></li>
-        <li><a href="4.html">게시글</a></li>
-  </ol>
-
+    <div id="bbq">
+  <ol>
+    <li><a href="1.html">소개</a></li>
+      <li><a href="2.html">영상</a></li>
+        <li><a href="3.html">대화방</a></li>
+          <li><a href="4.html">게시글</a></li>
+    </ol>
+<!--
+  <ol>
+    <li><a href="1.html">소개</a></li>
+      <li><a href="2.html">영상</a></li>
+        <li><a href="3.html">대화방</a></li>
+          <li><a href="4.html">게시글</a></li>
+    </ol>
+-->
+<div id="youtube">
    <p>그냥 심심해서 만들어봄
    여러가지 기능 추가할테니
    가끔 들려서 뻘소리 쓰고 나가셈.<br>
@@ -41,7 +53,9 @@
      frameborder="0" allow="accelerometer; autoplay;
       encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
    </p>
-   <p>
+</div>
+</div>
+   <p style="padding-left: 50px;">
 이 아래에 댓글 다시구요, 오른쪽 하단에 1:1 채팅기능 있음.
    </p>
    <p>
